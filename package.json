@@ -1,0 +1,61 @@
+{
+  "name": "website-starter",
+  "version": "1.0.0",
+  "description": "Quick start template for a static website development",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kbychkov/website-starter.git"
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp clean && cross-env NODE_ENV=production gulp build",
+    "deploy": "gulp deploy",
+    "server": "gulp server"
+  },
+  "author": "Konstantin Bychkov <kbychkov@bcs.ru> (https://github.com/kbychkov)",
+  "contributors": [
+    "Denis Emelyanov <demelyanov@bcs.ru>",
+    "Dmitry Melikhov <dmelikhov@bcs.ru>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.18.13",
+    "browserify": "^14.4.0",
+    "browserify-incremental": "^3.1.1",
+    "cross-env": "^5.0.5",
+    "cssnano": "^4.0.0-rc.2",
+    "del": "^3.0.0",
+    "envify": "^4.1.0",
+    "eslint-config-airbnb-base": "^12.0.2",
+    "eslint-plugin-import": "^2.7.0",
+    "gulp": "^3.9.1",
+    "gulp-cached": "^1.1.1",
+    "gulp-changed": "^3.1.0",
+    "gulp-eslint": "^4.0.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-if": "^2.0.2",
+    "gulp-inject": "^4.3.0",
+    "gulp-jsbeautifier": "^2.1.1",
+    "gulp-nunjucks-render": "^2.2.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-plumber-error-handler": "^1.0.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-stylus": "^2.6.0",
+    "gulp-svg-symbols": "^2.0.2",
+    "gulp-svgmin": "^1.2.4",
+    "gulp-uglify": "^3.0.0",
+    "jquery": "^3.3.1",
+    "magnific-popup": "^1.1.0",
+    "postcss-inline-svg": "^3.0.0",
+    "require-dir": "^0.3.2",
+    "run-sequence": "^2.2.0",
+    "svg4everybody": "^2.1.9",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
